@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - Anonyme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #111; color: #f5f7fa; }
+    .x-header { background: #181818; box-shadow: 0 2px 8px #222; }
+    .x-container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    .x-row { display: flex; align-items: center; justify-content: space-between; }
+    .x-logo img { height: 40px; }
+    .x-nav { display: flex; gap: 20px; }
+    .x-nav a { text-decoration: none; color: #f5f7fa; font-weight: bold; }
+    .x-btn { background: #5B78F6; color: #fff; padding: 10px 22px; border-radius: 20px; text-decoration: none; }
+    .x-main { padding: 40px 0; }
+    .x-about-section { display: flex; gap: 40px; flex-wrap: wrap; }
+    .x-img-box { background: linear-gradient(90deg, #23243a 0%, #222 58%, #23243a 100%); border-radius: 18px; padding: 20px; box-shadow: 0 4px 16px #181818; }
+    .x-img-box img { width: 220px; border-radius: 12px; }
+    .x-details { flex: 1; }
+    .x-title { display: flex; align-items: center; gap: 10px; font-size: 2em; }
+    .x-details-inner { background: #181818; border-radius: 12px; padding: 24px; margin-top: 18px; box-shadow: 0 2px 8px #222; }
+    .x-details-inner img { width: 32px; vertical-align: middle; }
+    .x-exp-edu { display: flex; gap: 40px; margin-top: 40px; flex-wrap: wrap; }
+    .x-card { background: #181818; border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px #222; flex: 1; min-width: 260px; }
+    .x-card h4 { margin-top: 0; color: #5B78F6; }
+    .x-card ul { list-style: none; padding: 0; }
+    .x-card li { margin-bottom: 18px; }
+    .x-card .x-date { font-size: 0.9em; color: #aaa; }
+    .x-footer { background: #181818; padding: 30px 0; text-align: center; margin-top: 60px; box-shadow: 0 -2px 8px #222; }
+    .x-footer-menu { display: flex; justify-content: center; gap: 20px; list-style: none; padding: 0; margin: 18px 0; }
+    .x-footer-menu a { color: #f5f7fa; text-decoration: none; }
+    .x-copyright { color: #aaa; font-size: 0.95em; }
+    @media (max-width: 900px) {
+      .x-about-section, .x-exp-edu { flex-direction: column; gap: 24px; }
+      .x-img-box img { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="x-header">
+    <div class="x-container">
+      <div class="x-row">
+        <a href="#" class="x-logo">
+          <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/logo.svg" alt="Logo">
+        </a>
+        <nav class="x-nav">
+          <a href="#">Accueil</a>
+          <a href="#">À propos</a>
+          <a href="#">Projets</a>
+          <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="x-btn">Contactez-moi</a>
+      </div>
+    </div>
+  </header>
+  <main class="x-main x-container">
+    <section class="x-about-section">
+      <div class="x-img-box">
+        <img src="rose.jpeg" alt="Photo">
+      </div>
+      <div class="x-details">
+        <div class="x-title">
+          <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/star-2.png" alt="*">
+          Présentation
+          <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/star-2.png" alt="*">
+        </div>
+        <div class="x-details-inner">
+          <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon2.png" alt="icon">
+          <h2>Rose Wane</h2>
+          <p>Je suis un étudiant en deuxième année d’Informatique de Gestion passionné par le développement web, les bases de données et la résolution de problèmes informatiques. Curieux, motivé et rigoureux, je suis en constante quête de nouvelles compétences techniques et pratiques, afin de construire une carrière solide dans le domaine des technologies de l'information.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="x-exp-edu">
+      <div class="x-card">
+        <h4>Expérience</h4>
+        <ul>
+          <li>
+            <span class="x-date">2024- Aujourd'hui</span>
+            <h3>Projets-Etudiant &amp; Développeur - web</h3>
+            <p>Creation de sites web dynamique avec HTML, CSS, javascript</p>
+          </li>
+            <li>
+                <span class="x-date">2023 - 2024</span>
+                <h3>Stage - Développeur web</h3>
+                <p>Développement d'applications web</p>
+        </ul>
+      </div>
+      <div class="x-card">
+        <h4>Formation</h4>
+        <ul>
+          <li>
+            <span class="x-date">2023 - Aujourd'hui
+            </span>
+            <h3>Licence en information de gestion</h3>
+          </li>
+          <li>
+            <span class="x-date">2022 - 2023</span>
+            <h3>Baccalaureat </h3>
+            <p>Lycee Lamine Gueye</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="x-footer">
+    <a href="#" class="x-logo">
+      <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/logo.svg" alt="Logo">
+    </a>
+    <ul class="x-footer-menu">
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">À propos</a></li>
+      <li><a href="#">Projets</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <p class="x-copyright">
+      © Tous droits réservés - <span>Anonyme</span>
+    </p>
+  </footer>
+  <script>
+    // Exemple d'animation simple JS
+    document.querySelector('.x-btn').addEventListener('click', function(e) {
+      e.preventDefault();
+      alert('Merci de votre intérêt !');
+    });
+  </script>
+</body>
+</html>
+
